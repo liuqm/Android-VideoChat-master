@@ -1,0 +1,61 @@
+TASK com.nercms id=1383
+  ACTIVITY com.nercms/.VideoChatActivity 1b9f8d57 pid=27507
+    Local Activity e74003 State:
+      mResumed=true mStopped=false mFinished=false
+      mLoadersStarted=true
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 460mcc1mnc zh_CN ?layoutDir sw360dp w360dp h620dp 480dpi nrml long port finger -keyb/v/h -nav/h s.62 themeChanged=0 themeChangedFlags=0}
+    FragmentManager misc state:
+      mActivity=com.nercms.VideoChatActivity@e74003
+      mContainer=android.app.Activity$1@1d495b80
+      mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=73414772 (36 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{171d25b9 V.E..... R....... 0,0-1080,1920}
+        android.widget.LinearLayout{1efd9dfe V.E..... ........ 0,0-1080,1920}
+          android.view.ViewStub{2893d95f G.E..... ......I. 0,0-0,0 #1020380}
+          android.widget.FrameLayout{11a8afac V.E..... ........ 0,60-1080,1920 #1020002 android:id/content}
+            android.widget.RelativeLayout{35616475 V.E..... ........ 0,0-1080,1860}
+              com.nercms.receive.VideoPlayView{e919c0a V.ED.... ........ 0,0-1080,1860 #7f0c0052 app:id/video_play}
+              android.view.SurfaceView{b46ac7b V.E..... ........ 684,99-984,489 #7f0c004f app:id/surface_view}
+        android.view.View{37c71a98 V.ED.... ........ 0,0-1080,60 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {1370d2f1}
+      Message 0: { when=-2ms what=16 obj=[B@3eb56ed6 target=android.hardware.Camera$EventHandler }
+      (Total messages: 1, idling=false, quitting=false)
+
+  ACTIVITY com.nercms/.MainActivity 3a786c23 pid=27507
+    Local FragmentActivity 32f11a14 State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=false
+    FragmentManager misc state:
+      mActivity=com.nercms.MainActivity@32f11a14
+      mContainer=android.support.v4.app.FragmentActivity$2@a899557
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{5f4844 I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{192ead2d V.E..... ... 0,0-1080,1920}
+          android.view.ViewStub{f71a262 G.E..... ... 0,0-0,0 #1020380}
+          android.widget.FrameLayout{2ca82ff3 V.E..... ... 0,60-1080,1920}
+            android.support.v7.internal.widget.ActionBarOverlayLayout{b2aa4b0 V.E..... ... 0,0-1080,1860 #7f0c003e app:id/decor_content_parent}
+              android.support.v7.internal.widget.ContentFrameLayout{f75ef29 V.E..... ... 0,168-1080,1860 #1020002 android:id/content}
+                android.widget.RelativeLayout{26cb82ae V.E..... ... 0,0-1080,1692}
+                  android.support.v7.widget.AppCompatEditText{70bd84f VFED..CL F.. 48,48-1032,184 #7f0c0050 app:id/editText}
+                  android.support.v7.widget.AppCompatButton{380d5bdc VFED..C. ... 48,265-1032,409 #7f0c0051 app:id/button}
+              android.support.v7.internal.widget.ActionBarContainer{17d554e5 V.ED.... ... 0,0-1080,168 #7f0c003f app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{33d11bba V.E..... ... 0,0-1080,168 #7f0c0040 app:id/action_bar}
+                  android.widget.TextView{3257aa6b V.ED.... ... 48,43-441,124}
+                  android.support.v7.widget.ActionMenuView{1f0259c8 V.E..... ... 1080,0-1080,168}
+                android.support.v7.internal.widget.ActionBarContextView{240b5a61 G.E..... ... 0,0-0,0 #7f0c0041 app:id/action_context_bar}
+        android.view.View{16653986 V.ED.... ... 0,0-1080,60 #102002f android:id/statusBarBackground}

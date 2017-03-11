@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nercms.VideoChatActivity">
+
+    <com.nercms.receive.VideoPlayView
+        android:id="@+id/video_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.nercms.receive.VideoPlayView>
+
+    <SurfaceView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/surface_view"
+        android:background="@drawable/surface_bg"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+    <!--<SurfaceView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/surface_view"-->
+        <!--android:background="@drawable/surface_bg"-->
+        <!--android:layout_alignParentTop="true"-->
+         <!--/>-->
+</RelativeLayout>
